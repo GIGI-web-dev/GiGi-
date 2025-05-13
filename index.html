@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <meta name="description" content="GIGI provides top-level academic writing, top grade, plagiarism-free, on time, and assignment support globally." />
-  <link rel="icon" href="https://i.ibb.co/35nMDRkG/resized-image.png" sizes="32x32"/>
+  <link rel="icon" href="https://i.ibb.co/gFR4BHnR/Chat-GPT-Image-13-06-43-11-thg-5-2025.png" sizes="64x64"/>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   
@@ -383,17 +383,38 @@
   <div class="container header-container">
     <div class="brand-logo-container" style="display: flex; align-items: center; gap: 10px;">
       <img src="https://i.ibb.co/p6r3dVVN/image.png" alt="GIGI Logo" class="brand-logo" style="height: 170px; width: auto;" /> <!-- Increased height -->
-      <div class="logo" style="font-size: 1.7rem; color: hsl(168, 70%, 24%); font-weight: bold;">GIGI ASSIGNMENT SUPPORT</div>
+      <div class="logo" style="font-size: 3 rem; color: hsl(168, 70%, 24%); font-weight: bold;">GIGI ASSIGNMENT WRITING</div>
     </div>
-    <nav class="nav" style="font-size: 1.1rem; display: flex; align-items: center;"> <!-- Enlarged font size -->
-      <a href="index.html" class="active" data-en="Home" data-vi="Trang Chủ">Home</a>
-      <a href="Aboutus.html" data-en="About us" data-vi="Về Chúng Tôi">About us</a>
-      <a href="Services.html" data-en="Services" data-vi="Dịch Vụ">Services</a>
-      <a href="Blog & News.html" data-en="Blog & News" data-vi="Blog & Tin Tức">Blog & News</a>
-      <a href="Ourcareers.html" data-en="Our Careers" data-vi="Nghề Nghiệp">Our Careers</a>
+
+    <nav class="nav" style="font-size: 1.1rem; display: none; flex-direction: column; align-items: flex-start; background: #004d40; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);" id="mobile-nav"> <!-- Hidden by default -->
+      <a href="index.html" class="active" data-en="Home" data-vi="TRANG CHỦ" style="color: rgb(76, 222, 36); text-decoration: none; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">HOME</a>
+      <a href="Aboutus.html" data-en="About us" data-vi="VỀ CHÚNG TÔI" style="color: white; text-decoration: none; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">ABOUT US</a>
+      <a href="Services.html" data-en="Services" data-vi="DỊCH VỤ" style="color: white; text-decoration: none; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">SERVICES</a>
+      <a href="Blog News.html" data-en="Blog & News" data-vi="BLOG & TIN TỨC" style="color: white; text-decoration: none; padding: 0.5rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">BLOG & NEWS</a>
+      <a href="Ourcareers.html" data-en="Our Careers" data-vi="NGHỀ NGHIỆP" style="color: white; text-decoration: none; padding: 0.5rem 0;">OUR CAREERS</a>
     </nav>
-  </div>
-</header>
+    <button id="hamburger-btn" style="background: #004d40; color: white; border: none; font-size: 1.5rem; cursor: pointer; padding: 0.5rem 1rem; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: background 0.3s ease, transform 0.3s ease;">
+      ☰
+    </button>
+    </div>
+    </header>
+
+    <script>
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const mobileNav = document.getElementById('mobile-nav');
+
+    hamburgerBtn.addEventListener('click', () => {
+      const isHidden = mobileNav.style.display === 'none' || mobileNav.style.display === '';
+      mobileNav.style.display = isHidden ? 'flex' : 'none';
+      if (isHidden) {
+      hamburgerBtn.style.transform = 'rotate(90deg)';
+      } else {
+      hamburgerBtn.style.transform = 'rotate(0deg)';
+      }
+    });
+    </script>
+
+
 
 <!-- Hero Section -->
 <section class="hero">
@@ -411,7 +432,7 @@
   </div>
 
   <div class="hero-form" id="order">
-    <form id="order-form" action="https://formsubmit.co/eduagency05@gmail.com" method="POST" enctype="multipart/form-data" novalidate>
+    <form id="order-form" action="https://formsubmit.co/gigi.edu.writing.service@gmail.com" method="POST" enctype="multipart/form-data" novalidate>
       <h2 data-en="Submit Your Order" data-vi="Gửi Đơn Hàng">Submit Your Order</h2>
   <input type="text" id="name" name="Customer-Name" required placeholder="Customer's Name" pattern="[A-Za-z\s]+" title="Only letters and spaces are allowed">
   <input type="email" id="email" name="Email" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter a valid email address">
@@ -485,6 +506,75 @@
 </form>
 </div>
 </section>
+
+<!-- Other Social Media Platforms -->
+<section class="social-media-platforms">
+  <div class="container">
+    <h2 data-en="Other Social Media Platforms" data-vi="Các Nền Tảng Mạng Xã Hội Khác">Other Social Media Platforms</h2>
+    <div class="social-media-grid">
+      <a href="https://www.facebook.com/profile.php?id=61576036981148&locale=vi_VN" target="_blank" class="social-media-link">
+        <img src="https://i.ibb.co/NdVR03Sh/image.png" alt="Meta" class="social-media-icon">
+        <p>Meta</p>
+      </a>
+      <a href="https://www.instagram.com/gigi_assignment_support/" target="_blank" class="social-media-link">
+        <img src="https://i.ibb.co/gZkbqKhp/image.png" alt="Instagram" class="social-media-icon">
+        <p>Instagram</p>
+      </a>
+      <a href="https://www.tiktok.com/@gigi.asm.writing?_t=ZS-8wHexb7dr3X&_r=1" target="_blank" class="social-media-link">
+        <img src="https://i.ibb.co/prsz5D1B/image.png" alt="Tiktok" class="social-media-icon">
+        <p>Tiktok</p>
+      </a>
+      <a href="https://www.youtube.com/@GIGI-dev" target="_blank" class="social-media-link">
+        <img src="https://i.ibb.co/3yDdtnX5/image.png" alt="Youtube" class="social-media-icon">
+        <p>Youtube</p>
+      </a>
+      <a href="https://www.linkedin.com/in/gigi-writing-service-243631365" target="_blank" class="social-media-link">
+        <img src="https://i.ibb.co/xtFT4wyc/image.png" alt="LinkedIn" class="social-media-icon">
+        <p>LinkedIn</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .social-media-platforms {
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .social-media-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .social-media-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .social-media-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .social-media-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+
+  .social-media-icon:hover {
+    transform: scale(1.1);
+  }
+</style>
 
 <!-- Grade Results -->
 <section class="feedback" id="feedback">
@@ -647,12 +737,21 @@ src="https://i.ibb.co/GfjF6kgY/image.png" alt="ISB University">
   </div>
 </section>
 
+<!-- Video Section -->
+<section class="video-section">
+  <div class="container">
+    <h2 data-en="Watch Our Video" data-vi="Xem Video Của Chúng Tôi">Watch Our Video</h2>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; margin-top: 1rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+      <iframe src="https://www.youtube.com/embed/u6qdE4F0UwY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+  </div>
+</section>
 
 <!-- Footer -->
 <footer class="footer">
   <div class="container footer-content">
-    <p>© 2025 GIGI Assignment Support. Powered by top global experts.</p>
-    <p>📍 Timesquare Building, District 1, Ho Chi Minh City, Vietnam | ✉️ agency@gigiassignmentsupport.org | 📞 +84 703 856 495</p>
+    <p>© 2025 GIGI Assignment Writing. Powered by top global experts.</p>
+    <p>📍 Timesquare Building, District 1, Ho Chi Minh City, Vietnam | ✉️ gigi.edu.writing.service@gmail.com | 📞 +84 703 856 495</p>
   </div>
 </footer>
 
@@ -660,7 +759,19 @@ src="https://i.ibb.co/GfjF6kgY/image.png" alt="ISB University">
 </html>
 
 <!-- Chatbot Agent -->
-
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6820cc7e5fa91f190c49ac95/1ir01tjjt';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
 
 
 <!-- Floating Action Buttons -->
@@ -671,10 +782,12 @@ src="https://i.ibb.co/GfjF6kgY/image.png" alt="ISB University">
   <a href="https://wa.me/84703856495" target="_blank" class="fab fab-whatsapp" title="Chat on WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
-  <a href="mailto: agency@gigiassignmentsupport.org" class="fab fab-email" title="Send Email">
+  <a href="mailto: gigi.edu.writing.service@gmail.com" class="fab fab-email" title="Send Email">
     <i class="fas fa-envelope"></i>
   </a> 
 </div>
+
+
 
 <style>
   .fab-container {
@@ -842,4 +955,6 @@ src="https://i.ibb.co/GfjF6kgY/image.png" alt="ISB University">
     .nav a {
       font-size: 1rem;
     }
+
   }
+  
